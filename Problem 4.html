@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <style type="text/css">
+        table, th, td{
+            border:1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <th>Full name*</th>
+                <th><input type="text" name="username" required="required" style="width: 500px;"></th>
+            </tr>
+            <tr>
+                <th>Email*</th>
+                <th><input type="text" name="mail" required="required" style="width: 500px;"> </th>
+            </tr>
+            <tr>
+                <th>Password*</th>
+                <th><input type="password" name="password" required="required" style="width: 500px;"></th>
+            </tr>
+            <tr>
+                <th>Confirm Password*</th>
+                <th><input type="password" name="password" required="required" style="width: 500px;"></th>
+            </tr>
+            <tr>
+                <th>Phone number*</th>
+                <th><input type="text" name="mail" required="required" style="width: 500px;"></th>
+            </tr>
+            <tr>
+                <th>Address*</th>
+                <th><textarea name="mail" cols="50" rows="5"></textarea></th>
+            </tr>
+            <tr>
+                <th>City</th>
+                <th><input type="text" placeholder="Enter your city" style="width: 200px;" ><b> State </b><input type="text" placeholder="Enter your state" ></th>
+            </tr>
+            <tr>
+                <th>Zip/Postal Code</th>
+                <th><input type="text" placeholder="Enter your Zip/Postal Code" style="width: 500px;"></th>
+            </tr>
+            <tr>
+                <th>Country*</th>
+                <th style="text-align: left;">
+                    <select name="country" >
+                        <option value="Select your country" selected="selected">[Select your country]</option>
+                        <option value="Vietnam">Vietnam</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th>Birthday:</th>
+                <th style="text-align: left;">
+                    <input type="date" id="birthday" name="birthday">
+                </th>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <th style="text-align: left;">
+                    <select>
+                        <option selected="selected">Male</option>
+                        <option>Female</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th>Starting date</th>
+                <th style="text-align: left;">
+                    <input name="season" type="radio" value="Spring">Spring
+                    <input name="season" type="radio" value="Summer">Summer
+                </th>
+            </tr>
+            <tr>
+                <th>Comments</th>
+                <th><textarea placeholder="Please send us more information" name="comment" cols="50" rows="5"></textarea></th>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <input type="Submit" value="Submit">
+                </th>
+            </tr>
+        </table>
+    </form>
+</body>
